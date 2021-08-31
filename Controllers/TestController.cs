@@ -77,7 +77,7 @@ namespace testApi.Controllers
             var accessKey = System.Environment.GetEnvironmentVariable("ACCESS_KEY");
             var secretKey = System.Environment.GetEnvironmentVariable("SECRET_KEY");
             var region = configuration.GetSection("Region").Value;
-            var uri = configuration.GetSection("Tigogt_url").Value;
+            var uri = System.Environment.GetEnvironmentVariable("URL_TIGO");
             var signer = new AWS4RequestSigner(accessKey, secretKey);
             var content = new StringContent(json, Encoding.UTF8, "application/json");
             var request = new HttpRequestMessage {
