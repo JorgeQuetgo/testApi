@@ -74,8 +74,8 @@ namespace testApi.Controllers
             //https://github.com/tsibelman/aws-signer-v4-dot-net    
             var json = Newtonsoft.Json.JsonConvert.SerializeObject(tigoBody);
             Console.WriteLine(json);
-            var accessKey = configuration.GetSection("AccessKey").Value;
-            var secretKey = configuration.GetSection("SecretKey").Value;
+            var accessKey = System.Environment.GetEnvironmentVariable("ACCESS_KEY");
+            var secretKey = System.Environment.GetEnvironmentVariable("SECRET_KEY");
             var region = configuration.GetSection("Region").Value;
             var uri = configuration.GetSection("Tigogt_url").Value;
             var signer = new AWS4RequestSigner(accessKey, secretKey);
