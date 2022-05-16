@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/jorgequetgo/Atento/testApi/testApi.csproj": {}
+    "/Users/jorgegiron/Documents/Atento/testApi/testApi.csproj": {}
   },
   "projects": {
-    "/home/jorgequetgo/Atento/testApi/testApi.csproj": {
+    "/Users/jorgegiron/Documents/Atento/testApi/testApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jorgequetgo/Atento/testApi/testApi.csproj",
+        "projectUniqueName": "/Users/jorgegiron/Documents/Atento/testApi/testApi.csproj",
         "projectName": "testApi",
-        "projectPath": "/home/jorgequetgo/Atento/testApi/testApi.csproj",
-        "packagesPath": "/home/jorgequetgo/.nuget/packages/",
-        "outputPath": "/home/jorgequetgo/Atento/testApi/obj/",
+        "projectPath": "/Users/jorgegiron/Documents/Atento/testApi/testApi.csproj",
+        "packagesPath": "/Users/jorgegiron/.nuget/packages/",
+        "outputPath": "/Users/jorgegiron/Documents/Atento/testApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jorgequetgo/.nuget/NuGet/NuGet.Config"
+          "/Users/jorgegiron/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AWSSDK.Core": {
               "target": "Package",
@@ -79,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.412/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

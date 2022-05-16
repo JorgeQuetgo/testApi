@@ -19,5 +19,7 @@ namespace testApi.Models
         public String TIPO_TRANSACCION_3 { get; set; }
         public String TIEMPO_ESPERA { get; set; }
         public String TIEMPO_ATENCION { get; set; }
+        public String FLAG_B2B { get; set; }
+        public String VDN { get; set; }
     }
 }
